@@ -11,7 +11,7 @@ body	{margin:0 auto; padding:0; border:0;}
 .cf>.fl	{float:left;}
 .cf>.fr	{float:right;}
 
-.cf>.in	{max-width:1024px; margin:0 auto;}
+.wr>.cf	{max-width:1024px; margin:0 auto; position:relative;}
 
 #hdr	{background:#ccf;}
 
