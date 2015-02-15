@@ -1,0 +1,35 @@
+body, table	{
+	font-family:'Source Sans Pro', SourceSansPro, SourceSans, "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif; font-size:100%;
+	position:relative;
+}
+body	{margin:0 auto; padding:0; border:0;}
+
+.cf	{}
+.cf:before, .cf:after	{content:' '; display:table;}
+.cf:after	{clear:both;}
+
+.cf>.fl	{float:left;}
+.cf>.fr	{float:right;}
+
+#hdr	{background:#ccf;}
+
+#ftr	{background:#ddf;}
+	#ftr .copy	{font-size:65%;}
+
+#main	{}
+
+/**** SCALE IT UP ****/
+@media screen and (min-width: 320px) {
+}
+@media screen and (min-width: 400px) {
+}
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 960px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
