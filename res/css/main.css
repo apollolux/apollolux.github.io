@@ -14,8 +14,18 @@ body	{margin:0 auto; padding:0; border:0;}
 .wr>.cf	{max-width:1024px; margin:0 auto; position:relative;}
 
 #hdr	{background:#ccf; box-shadow:0 0px 4px rgba(0,0,0,0.5);}
+	#hdr>.cf	{
+		background:#fcc; background:rgba(255,0,0,0.25);
+		box-sizing:border-box; padding:0 16px;
+		border:solid #d99; border-width:0 1px; border-color:rgba(192,0,0,0.5);
+	}
 
 #ftr	{background:#ddf; box-shadow:0 0px 4px rgba(0,0,0,0.5);}
+	#ftr>.cf	{
+		background:#fdd; background:rgba(255,0,0,0.25);
+		box-sizing:border-box; padding:0 16px;
+		border:solid #eaa; border-width:0 1px; border-color:rgba(192,0,0,0.5);
+	}
 	#ftr .copy	{font-size:65%;}
 
 #main	{}
